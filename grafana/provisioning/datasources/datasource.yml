@@ -1,0 +1,27 @@
+apiVersion: 1
+
+datasources:
+  - name: TimescaleDB
+    type: postgres
+    url: timescaledb:5432
+    user: sensor_user
+    secureJsonData:
+      password: 'sensor_pass'
+    jsonData:
+      database: sensordb
+      sslmode: 'disable'
+      maxOpenConns: 100
+      maxIdleConns: 100
+      maxIdleConnsAuto: true
+      connMaxLifetime: 14400
+      postgresVersion: 1400
+      timescaledb: true
+    editable: true
+
+  - name: MinIO
+    type: grafana-minio-datasource
+    url: http://minio:9000
+    secureJsonData:
+      accessKey: 'minioadmin'
+      secretKey: 'minioadmin'
+    editable: true 

@@ -1,0 +1,20 @@
+1745499574: mosquitto version 2.0.21 starting
+1745499574: Config loaded from /mosquitto/config/mosquitto.conf.
+1745499574: Opening ipv4 listen socket on port 1883.
+1745499574: Opening ipv6 listen socket on port 1883.
+1745499574: mosquitto version 2.0.21 running
+1745499584: New connection from 172.18.0.1:50746 on port 1883.
+1745499584: Client <unknown> disconnected due to protocol error.
+1745499584: New connection from 172.18.0.1:50754 on port 1883.
+1745499584: Client <unknown> disconnected due to protocol error.
+1745499584: New connection from 172.18.0.1:50764 on port 1883.
+1745499585: Client <unknown> disconnected due to protocol error.
+1745499585: New connection from 172.18.0.1:50774 on port 1883.
+1745499585: Client <unknown> disconnected due to protocol error.
+1745501184: New connection from 172.18.0.1:53174 on port 1883.
+1745501184: New client connected from 172.18.0.1:53174 as auto-CCFA980B-CF41-4C95-67F8-841AC44EE186 (p2, c1, k60).
+1745501237: New connection from 172.18.0.1:50650 on port 1883.
+1745501237: New client connected from 172.18.0.1:50650 as auto-35388C12-0E13-4D89-DFAC-812B202CF638 (p2, c1, k60).
+1745501375: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1745501375: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.

@@ -1,0 +1,64 @@
+# ========================
+# Librairies pour MQTT
+# ========================
+
+# paho-mqtt : Client MQTT
+# Rôle : Sert à envoyer et recevoir des messages via le protocole MQTT (communication IoT, capteurs, etc.)
+paho-mqtt>=1.6.1
+
+
+# ========================
+# Librairies pour Apache Kafka
+# ========================
+
+# kafka-python : Client Kafka
+# Rôle : Permet la communication avec un cluster Apache Kafka (streaming de données, ingestion temps réel)
+kafka-python>=2.0.2
+
+
+# ========================
+# Librairies pour Apache Spark (traitement distribué des données)
+# ========================
+
+# pyspark : Interface Apache Spark en Python
+# Rôle : Traite de grandes quantités de données en mémoire ou sur disque de manière distribuée
+pyspark>=3.4.0
+
+# findspark : Détection automatique de Spark
+# Rôle : Aide à initialiser Spark dans des environnements Python (ex. Jupyter Notebook)
+findspark>=2.0.1
+
+
+# ========================
+# Packages de base pour la manipulation de données
+# ========================
+
+# numpy : Calcul scientifique
+# Rôle : Manipulation efficace des tableaux, matrices, et opérations mathématiques
+numpy>=1.21.0
+
+# pandas : Analyse de données
+# Rôle : Gestion et transformation de données tabulaires (DataFrames, séries temporelles, etc.)
+pandas>=1.3.0
+
+
+# ========================
+# Connexion à une base de données PostgreSQL
+# ========================
+
+# psycopg2-binary : Pilote PostgreSQL
+# Rôle : Permet de connecter une application Python à une base de données PostgreSQL
+psycopg2-binary>=2.9.3
+
+
+# ========================
+# Utilitaires et outils divers
+# ========================
+
+# python-dotenv : Gestion des variables d'environnement
+# Rôle : Charge les paramètres sensibles (API keys, credentials) à partir d’un fichier `.env`
+python-dotenv>=0.19.0
+
+# requests : Requêtes HTTP
+# Rôle : Interagir avec des APIs externes ou des services web (GET, POST, etc.)
+requests>=2.27.1
